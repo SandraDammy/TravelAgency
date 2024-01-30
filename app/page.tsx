@@ -12,7 +12,15 @@ export default function Home() {
   return (
     <main className="relative poppins  md:px-[9rem]">
       <NavBar />
+      <div>
+      <div className="absolute top-0 right-0 -z-10">
+        <img src="/images/blob-shape.png" alt="Blob-shape right" />
+      </div>
+      <div className="absolute top-0 left-0 -z-10">
+        <img src="/images/top-left-gradient.png" alt="Blob-shape left" />
+      </div>
       <HeroSection />
+      
       <CategorySection />
       <TopSellingSection />
       <BookNextTripSection />
@@ -20,6 +28,8 @@ export default function Home() {
       <LogoGroupSection />
       <NewLetterSection />
       <FooterSection />
+      </div>
+   
     </main>
   );
 }
