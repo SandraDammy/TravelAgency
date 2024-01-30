@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Categorysection = () => {
+const CategorySection = () => {
   return (
     <div>
-      Categorysection
+      CategorySection
     </div>
   )
 }
 
-export default Categorysection
+export default CategorySection

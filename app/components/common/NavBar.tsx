@@ -2,9 +2,9 @@
 
 import React from 'react'
 import { useState } from "react";
-// import { X } from "lucide-react";
+import { X } from "lucide-react";
 import Link from "next/link";
-// import MainButton from "./MainButton";
+import MainButton from './MainButton';
 
 function NavBar() {
     const [menu, setMenu] = useState(false);
@@ -48,10 +48,10 @@ function NavBar() {
               Login
             </Link>
 
-            {/* <MainButton
+            <MainButton
               text="Sign up"
               classes="bg-transparent text-navText font-[600] shadow-none rounded-normal border border-navText hover:border-none hover:text-white"
-            /> */}
+            />
 
             <div className="flex gap-2 items-center cursor-pointer">
               <p className="font-[700]">EN</p>
@@ -63,7 +63,7 @@ function NavBar() {
         </div>
       </div>
       {/* MOBILE */}
-      {/* <div
+      <div
         className={` block lg:hidden shadow-sm  fixed top-0 w-full z-[999]   py-4 animate-in fade-in zoom-in  ${
           menu ? " bg-primary py-2" : "bg-white"
         } `}
@@ -137,7 +137,7 @@ function NavBar() {
         ) : (
           <div></div>
         )}
-      </div> */}
+      </div>
     </div>  )
 }
 
