@@ -9,11 +9,11 @@ const FooterSection = () => {
             <img src="/images/logo-bottom.png" alt="footer logo" />
           </div>
           <p className="text-lightGray mt-[1.19rem] w-207">
-            Book your trip in minute,  <br /> get full Control for much longer.
+            Book your trip in minute, get full <br />Control for much longer.
           </p>
         </div>
-        <div className="flex gap-8 flex-grow justify-between">
-          <div className="flex flex-col gap-4">
+        <div className="flex gap-4 flex-grow justify-between">
+          <div className="flex flex-col gap-3">
             <p className="text-lightBlack font-[700] text-[1.3125rem]">
               Company
             </p>
@@ -28,7 +28,7 @@ const FooterSection = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-3">
             <p className="text-lightBlack font-[700] text-[1.3125rem]">
               Contact
             </p>
@@ -43,7 +43,7 @@ const FooterSection = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-3">
             <p className="text-lightBlack font-[700] text-[1.3125rem]">More</p>
             <div className="flex flex-col gap-2">
               <p className="text-lightGray text-[1.125rem] font-[500]">
