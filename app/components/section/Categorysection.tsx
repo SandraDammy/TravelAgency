@@ -18,7 +18,7 @@ const CategorySection = () => {
       title: "Best Flights",
       description:
         "Engrossed listening. Park gate sell they west hard for the.",
-      highlighted: false,
+      highlighted: true,
     },
     {
       id: 2,

@@ -12,24 +12,42 @@ export default function Home() {
   return (
     <main className="relative poppins  md:px-[9rem]">
       <NavBar />
-      <div>
-      <div className="absolute top-0 right-0 -z-10">
-        <img src="/images/blob-shape.png" alt="Blob-shape right" />
+      <div className="px-4 flex flex-col gap-[7.69rem]">
+        <div>
+          <HeroSection />
+          <div className="absolute top-0 right-0 -z-10">
+            <img src="/images/blob-shape.png" alt="Blob-shape right" />
+          </div>
+          <div className="absolute top-0 left-0 -z-10">
+            <img src="/images/top-left-gradient.png" alt="Blob-shape left" />
+          </div>
+        </div>
+
+        <div className="relative">
+          <CategorySection />
+          <div className="absolute top-0 right-0">
+            <img src="/images/plus-group.png" alt="Plus-group" />
+          </div>
+        </div>
+
+        <div>
+          <TopSellingSection />
+          <div>
+            {/* <img src="/public/images/stylish-ring.png" alt="" /> */}
+          </div>
+        </div>
+
+        <div>
+        <BookNextTripSection />
+          <div>
+          </div>
+        </div>
+
+        <TestimonialSection />
+        <LogoGroupSection />
+        <NewLetterSection />
+        <FooterSection />
       </div>
-      <div className="absolute top-0 left-0 -z-10">
-        <img src="/images/top-left-gradient.png" alt="Blob-shape left" />
-      </div>
-      <HeroSection />
-      
-      <CategorySection />
-      <TopSellingSection />
-      <BookNextTripSection />
-      <TestimonialSection />
-      <LogoGroupSection />
-      <NewLetterSection />
-      <FooterSection />
-      </div>
-   
     </main>
   );
 }

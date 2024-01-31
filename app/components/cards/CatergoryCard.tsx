@@ -10,7 +10,7 @@ interface IProps {
 const CatergoryCard: React.FC<IProps> = ({ iconUrl, title, description, isHighlighted }: IProps) => {
   return (
     <div
-      className={`flex relative flex-col gap-4 items-center p-[2.5rem] ${
+      className={`flex relative flex-col gap-4 items-center p-[2.5rem] text-center ${
         isHighlighted ? 'bg-white shadow-md rounded-[2.5rem]' : ''
       }`}
     >
