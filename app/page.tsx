@@ -26,17 +26,11 @@ export default function Home() {
         <div className="relative">
           <CategorySection />
           <div className="absolute top-0 right-0">
-            <img src="/images/plus-group.png" alt="Plus-group" />
+            <img src="/images/plus-group-2.png" alt="Plus-group" />
           </div>
         </div>
 
-        <div>
-          <TopSellingSection />
-          <div>
-            {/* <img src="/public/images/stylish-ring.png" alt="" /> */}
-          </div>
-        </div>
-
+        <TopSellingSection />
         <BookNextTripSection />
         <TestimonialSection />
         <LogoGroupSection />

@@ -22,7 +22,7 @@ const TestimonialSection = () => {
     },
   ];
   return (
-    <section className="flex justify-between flex-col md:flex-row items-center mt-[-10rem]">
+    <section className="flex justify-between flex-col md:flex-row items-center mt-[-10rem] pt-[2rem]">
       <div>
         <div>
           <SubsideNavBar
