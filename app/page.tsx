@@ -37,12 +37,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div>
         <BookNextTripSection />
-          <div>
-          </div>
-        </div>
-
         <TestimonialSection />
         <LogoGroupSection />
         <NewLetterSection />
